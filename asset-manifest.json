@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/cosmos/static/css/main.2a340e58.css",
+    "main.js": "/cosmos/static/js/main.5912c9e7.js",
+    "static/js/787.b0fdefd0.chunk.js": "/cosmos/static/js/787.b0fdefd0.chunk.js",
+    "static/media/background.jpg": "/cosmos/static/media/background.439db05930401739193d.jpg",
+    "static/media/price_list.jpg": "/cosmos/static/media/price_list.fba5a4b1d72666e20562.jpg",
+    "index.html": "/cosmos/index.html",
+    "main.2a340e58.css.map": "/cosmos/static/css/main.2a340e58.css.map",
+    "main.5912c9e7.js.map": "/cosmos/static/js/main.5912c9e7.js.map",
+    "787.b0fdefd0.chunk.js.map": "/cosmos/static/js/787.b0fdefd0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a340e58.css",
+    "static/js/main.5912c9e7.js"
+  ]
+}
