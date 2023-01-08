@@ -1,5 +1,4 @@
 import styles from './App.module.css';
-import background from './img/background.jpg'
 import price from './img/price_list.jpg'
 import icon from './img/icon_cosmos.jpg'
 import aboutBg from './img/about__bg.jpg'
@@ -23,9 +22,24 @@ function App() {
     <div className={styles.app__wrapper}>
       <div className={styles.title__wrapper}>
         <a name='top' alt="#" href='/'></a>
-        {/* <img className={styles.img__background} src={background} alt="#/" /> */}
         <div className={styles.img__background}>
-          <Carousel className={styles.img__background} autoplay>
+          <header className={styles.header}>
+            <ul className={styles.desktop__header}>
+              <a className={styles.skip__link} href='#top'><li>Home</li></a>
+              <a href='#about'><li>About us</li></a>
+              <a href='#media'><li>Photos / Vidos</li></a>
+              <a href='#price'><li>Price</li></a>
+              <a href='#contact'><li>Contacts</li></a>
+            </ul>
+            <div className={styles.header__phone}>
+              <a href='#contact'><li>Контакты</li></a>
+              <img src={phoneTitle} alt="#" /><a href="tell: +7(978) 075 9934">+7(978) 075 9934</a>
+            </div>
+          </header>
+          <div className={styles.title__header}>
+            <h2>Cosmos Zone</h2>
+          </div>
+          <Carousel className={styles.img__carusel} autoplay>
             <div className={styles.caruselTitle__1}>
               <img src={carusel_1} alt="#" />
             </div>
@@ -37,26 +51,11 @@ function App() {
             </div>
           </Carousel>
         </div>
-        <header className={styles.header}>
-          <ul>
-            <a className={styles.skip__link} href='#top'><li>Home</li></a>
-            <a href='#about'><li>About us</li></a>
-            <a href='#media'><li>Photos / Vidos</li></a>
-            <a href='#price'><li>Price</li></a>
-            <a href='#contact'><li>Contacts</li></a>
-          </ul>
-          <div className={styles.header__phone}>
-            <img src={phoneTitle} alt="#" /><a href="tell: +7(978) 075 9934">+7(978) 075 9934</a>
-          </div>
-        </header>
-        <div className={styles.title__header}>
-          <h2>Cosmos Zone</h2>
-        </div>
       </div>
       <a name="about"></a>
       <div className={styles.about__wrapper}>
         <img className={styles.about__bg} src={aboutBg} alt="#" />
-        <div>
+        <div className={styles.about__text}>
           <h2>LOFT ПРОСТРАНСТВО для детей и взрослых!</h2>
           <p>⚡️3 уютных зала, которые предоставлены только Вам.
             У нас Вы сможете:</p>
