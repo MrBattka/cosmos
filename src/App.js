@@ -27,10 +27,10 @@ function App() {
           <header className={styles.header}>
             <ul className={styles.desktop__header}>
               <li><a className={styles.skip__link} href='#top'>Home</a></li>
-              <li><a href='#about'>About us</a></li>
-              <li><a href='#media'>Photos / Vidos</a></li>
-              <li><a href='#price'>Price</a></li>
-              <li><a href='#contact'>Contacts</a></li>
+              <li><a href='#about'>О нас</a></li>
+              <li><a href='#media'>Фото</a></li>
+              <li><a href='#price'>Цены</a></li>
+              <li><a href='#contact'>Контакты</a></li>
             </ul>
             <a className={styles.icon__header} href='#top'><img className={styles.icon__header_img} src={iconHeader} alt="#" /></a>
             <div className={styles.header__phone}>
