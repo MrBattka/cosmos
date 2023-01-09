@@ -1,6 +1,7 @@
 import styles from './App.module.css';
 import price from './img/price_list.jpg'
 import icon from './img/icon_cosmos.jpg'
+import iconHeader from './img/icon_head.jpg'
 import aboutBg from './img/about__bg.jpg'
 import vk from './img/vk.svg'
 import inst from './img/inst.svg'
@@ -21,19 +22,19 @@ function App() {
   return (
     <div className={styles.app__wrapper}>
       <div className={styles.title__wrapper}>
-        <a name='top' alt="#" href='/'></a>
+        <a name='top' alt="#"></a>
         <div className={styles.img__background}>
           <header className={styles.header}>
             <ul className={styles.desktop__header}>
-              <a className={styles.skip__link} href='#top'><li>Home</li></a>
-              <a href='#about'><li>About us</li></a>
-              <a href='#media'><li>Photos / Vidos</li></a>
-              <a href='#price'><li>Price</li></a>
-              <a href='#contact'><li>Contacts</li></a>
+              <li><a className={styles.skip__link} href='#top'>Home</a></li>
+              <li><a href='#about'>About us</a></li>
+              <li><a href='#media'>Photos / Vidos</a></li>
+              <li><a href='#price'>Price</a></li>
+              <li><a href='#contact'>Contacts</a></li>
             </ul>
+            <a className={styles.icon__header} href='#top'><img className={styles.icon__header_img} src={iconHeader} alt="#" /></a>
             <div className={styles.header__phone}>
-              <a href='#contact'><li>Контакты</li></a>
-              <img src={phoneTitle} alt="#" /><a href="tell: +7(978) 075 9934">+7(978) 075 9934</a>
+            <a href="tell: +7(978) 075 9934"><img src={phoneTitle} alt="#" /><span>+7(978) 075 9934</span></a>
             </div>
           </header>
           <div className={styles.title__header}>
@@ -55,17 +56,19 @@ function App() {
       <a name="about"></a>
       <div className={styles.about__wrapper}>
         <img className={styles.about__bg} src={aboutBg} alt="#" />
-        <div className={styles.about__text}>
+        <div className={styles.about__text_wrapper}>
           <h2>LOFT ПРОСТРАНСТВО для детей и взрослых!</h2>
-          <p>⚡️3 уютных зала, которые предоставлены только Вам.
-            У нас Вы сможете:</p>
-          <p>✖️Насладиться любимым фильмом,</p>
-          <p>✖️Oтметить День Рождения или провести корпоратив,</p>
-          <p>✖️Сыграть в PlayStation 4,</p>
-          <p>✖️Поиграть в настольные игры,</p>
-          <p>✖️Спеть в караоке без стеснения или устроить настоящую вечеринку!</p>
-          <p>🍷принести с собой напитки или заказать доставку🍕</p>
-          <p>Ждём Вас!♥️</p>
+          <div className={styles.about__text}>
+            <p>⚡️3 уютных зала, которые предоставлены только Вам.
+              У нас Вы сможете:</p>
+            <p>✖️Насладиться любимым фильмом,</p>
+            <p>✖️Oтметить День Рождения или провести корпоратив,</p>
+            <p>✖️Сыграть в PlayStation 4,</p>
+            <p>✖️Поиграть в настольные игры,</p>
+            <p>✖️Спеть в караоке без стеснения или устроить настоящую вечеринку!</p>
+            <p>🍷принести с собой напитки или заказать доставку🍕</p>
+            <p>Ждём Вас!♥️</p>
+          </div>
         </div>
         <img className={styles.icon} src={icon} alt="#" />
       </div>
@@ -73,26 +76,26 @@ function App() {
       <div className={styles.media__wrapper}>
         <div className={styles.caruselWrapper__1}>
           <Carousel autoplay>
-            <div className={styles.caruselPhoto__1}>
+            <div>
               <img src={photo_1} alt="#" />
             </div>
-            <div className={styles.carusel}>
+            <div>
               <img src={photo_2} alt="#" />
             </div>
-            <div className={styles.carusel}>
+            <div>
               <img src={photo_3} alt="#" />
             </div>
           </Carousel>
         </div>
         <div className={styles.caruselWrapper__2}>
           <Carousel autoplay>
-            <div className={styles.carusel}>
+            <div>
               <img src={photo_4} alt="#" />
             </div>
-            <div className={styles.carusel}>
+            <div>
               <img src={photo_5} alt="#" />
             </div>
-            <div className={styles.carusel}>
+            <div>
               <img src={photo_6} alt="#" />
             </div>
           </Carousel>
