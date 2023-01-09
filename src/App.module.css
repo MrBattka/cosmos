@@ -394,17 +394,15 @@ body {
     }
 }
 
-@media(max-width: 450px) {
-    .caruselTitle__1, .caruselTitle__3 {
-        height: 10%;
+@media(max-width: 650px) {
+    .title__header h2 {
+        margin-bottom: 250px;
     }
+}
 
+@media(max-width: 450px) {
     .title__wrapper {
         height: 40vh;
-    }
-
-    .caruselTitle__2 {
-        margin-top: 2px;
     }
 
     .title__header {
@@ -447,5 +445,11 @@ body {
         margin: 0;
         max-width: 350px;
         margin-bottom: 7px;
+    }
+}
+
+@media(max-width: 400px) {
+    .title__wrapper {
+        height: 35vh;
     }
 }
