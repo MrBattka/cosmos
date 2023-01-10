@@ -1,30 +1,34 @@
 {
   "files": {
-    "main.css": "/cosmos/static/css/main.6036bb82.css",
-    "main.js": "/cosmos/static/js/main.80e938fb.js",
+    "main.css": "/cosmos/static/css/main.2bf2b414.css",
+    "main.js": "/cosmos/static/js/main.a844e878.js",
     "static/js/787.b0fdefd0.chunk.js": "/cosmos/static/js/787.b0fdefd0.chunk.js",
     "static/media/about__bg.jpg": "/cosmos/static/media/about__bg.e83e0cd326683393a01f.jpg",
     "static/media/carusel_3.jpg": "/cosmos/static/media/carusel_3.fe4e68b25516dca88906.jpg",
     "static/media/carusel_2.jpg": "/cosmos/static/media/carusel_2.9f56ef7756b94c36ab85.jpg",
     "static/media/Ly5W-B5vwPc.jpg": "/cosmos/static/media/Ly5W-B5vwPc.7a3eb214637ec4365b63.jpg",
+    "static/media/exkc2OV4n5Y.jpg": "/cosmos/static/media/exkc2OV4n5Y.787a8c4003888c9c6dda.jpg",
     "static/media/C5PupKl_WzQ.jpg": "/cosmos/static/media/C5PupKl_WzQ.7919fbe027f0d61d1016.jpg",
     "static/media/DMq06NN3rgE.jpg": "/cosmos/static/media/DMq06NN3rgE.5d6e709aea30e6d49c2f.jpg",
     "static/media/FNlzmtBXXb8.jpg": "/cosmos/static/media/FNlzmtBXXb8.f36cb5aec24f5cf9ee23.jpg",
+    "static/media/price_list_vip.jpg": "/cosmos/static/media/price_list_vip.8ad1174cbb92392625b3.jpg",
+    "static/media/carusel_4.jpg": "/cosmos/static/media/carusel_4.270fe5c13d909ac458d0.jpg",
     "static/media/price_list.jpg": "/cosmos/static/media/price_list.ec3c81f85c06a31f9643.jpg",
+    "static/media/fUYPhawVmaE.jpg": "/cosmos/static/media/fUYPhawVmaE.a12d739196362b1a1dca.jpg",
+    "static/media/carusel_1.jpg": "/cosmos/static/media/carusel_1.a44b153168147a0bb2b3.jpg",
     "static/media/bWW2x4q8dDY.jpg": "/cosmos/static/media/bWW2x4q8dDY.c3ce6d68635932514a19.jpg",
-    "static/media/carusel_1.jpg": "/cosmos/static/media/carusel_1.14421c689ef2975d1de3.jpg",
     "static/media/9MYjCAPMQs8.jpg": "/cosmos/static/media/9MYjCAPMQs8.1cc39d0f30f6f99865dc.jpg",
     "static/media/icon_head.jpg": "/cosmos/static/media/icon_head.502de647d95665759ef2.jpg",
     "static/media/icon_cosmos.jpg": "/cosmos/static/media/icon_cosmos.0ff7a98fa3afbe8ed307.jpg",
     "static/media/vk.svg": "/cosmos/static/media/vk.5e9003685ce7d0005a91c57361f2aa2f.svg",
     "index.html": "/cosmos/index.html",
     "static/media/inst.svg": "/cosmos/static/media/inst.c28b1fdc4b9b5fefd0c9c5e0bdf19b09.svg",
-    "main.6036bb82.css.map": "/cosmos/static/css/main.6036bb82.css.map",
-    "main.80e938fb.js.map": "/cosmos/static/js/main.80e938fb.js.map",
+    "main.2bf2b414.css.map": "/cosmos/static/css/main.2bf2b414.css.map",
+    "main.a844e878.js.map": "/cosmos/static/js/main.a844e878.js.map",
     "787.b0fdefd0.chunk.js.map": "/cosmos/static/js/787.b0fdefd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6036bb82.css",
-    "static/js/main.80e938fb.js"
+    "static/css/main.2bf2b414.css",
+    "static/js/main.a844e878.js"
   ]
 }
