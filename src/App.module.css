@@ -240,16 +240,27 @@ body {
 }
 
 .price__wrapper {
+    display: flex;
+    justify-content: center;
     background-color: rgb(23, 0, 21);
-    width: 100vw;
+}
+
+.caruselWrapper__price {
+    max-width: 50vw;
+    max-height: 100vh;
+    
+}
+
+.img__price {
+    max-width: 100vw;
     max-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.img__price {
-    max-width: 100vh;
+.img__price img {
+    width: 50vw;
     max-height: 100vh;
 }
 
@@ -328,6 +339,10 @@ body {
         display: none;
     }
 
+    .title__header h2 {
+        margin-bottom: 100px;
+    }
+
     .about__text_wrapper {
         margin: 0;
     }
@@ -384,20 +399,40 @@ body {
     }
     .caruselWrapper__1 {
         width: 100vw;
-        max-height: 80vh;
+        max-height: 100vh;
     }
     .caruselWrapper__2 {
          display: none;
     }
     .caruselWrapper__1 img  {
         width: 100%;
-        max-height: 80vh;
+        max-height: 100vh;
+    }
+
+    .caruselWrapper__price {
+        max-width: 70vw;
+    }
+    .img__price img {
+        width: 70vw;
     }
 }
 
 @media(max-width: 650px) {
     .title__header h2 {
         margin-bottom: 250px;
+    }
+
+    .header__phone a span {
+        display: none;
+    }
+}
+
+@media(max-width: 550px) {
+    .caruselWrapper__price {
+        max-width: 100vw;
+    }
+    .img__price img {
+        width: 100vw;
     }
 }
 
@@ -418,10 +453,6 @@ body {
 
     .icon__header_img {
         width: 60px;
-    }
-
-    .header__phone a span {
-        display: none;
     }
 
     .header__phone {
@@ -447,10 +478,33 @@ body {
         max-width: 350px;
         margin-bottom: 7px;
     }
+
+    .caruselWrapper__1 {
+        width: 100%;
+        height: 45vh;
+    }
+    .caruselWrapper__1 img  {
+        width: 100%;
+        height: 45vh;
+    }
 }
 
 @media(max-width: 400px) {
     .title__wrapper {
-        height: 35vh;
+        height: 40vh;
+    }
+    .caruselWrapper__1 {
+        width: 100%;
+        height: 40vh;
+    }
+    .caruselWrapper__1 img  {
+        width: 100%;
+        height: 40vh;
+    }
+}
+
+@media(max-width: 350px) {
+    .title__wrapper {
+        height: 34vh;
     }
 }

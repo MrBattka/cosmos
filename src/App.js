@@ -1,5 +1,6 @@
 import styles from './App.module.css';
 import price from './img/price_list.jpg'
+import price_vip from './img/price_list_vip.jpg'
 import icon from './img/icon_cosmos.jpg'
 import iconHeader from './img/icon_head.jpg'
 import aboutBg from './img/about__bg.jpg'
@@ -11,12 +12,15 @@ import { Carousel } from 'antd';
 import carusel_1 from './img/carusel_2.jpg'
 import carusel_2 from './img/carusel_3.jpg'
 import carusel_3 from './img/carusel_1.jpg'
-import photo_1 from './img/Photo/9MYjCAPMQs8.jpg'
-import photo_2 from './img/Photo/bWW2x4q8dDY.jpg'
-import photo_3 from './img/Photo/C5PupKl_WzQ.jpg'
-import photo_4 from './img/Photo/DMq06NN3rgE.jpg'
-import photo_5 from './img/Photo/FNlzmtBXXb8.jpg'
-import photo_6 from './img/Photo/Ly5W-B5vwPc.jpg'
+import carusel_4 from './img/carusel_4.jpg'
+import photo_1 from './img/Photo/carusel_1/9MYjCAPMQs8.jpg'
+import photo_2 from './img/Photo/carusel_1/bWW2x4q8dDY.jpg'
+import photo_3 from './img/Photo/carusel_1/C5PupKl_WzQ.jpg'
+import photo_4 from './img/Photo/carusel_1/DMq06NN3rgE.jpg'
+import photo_5 from './img/Photo/carusel_2/exkc2OV4n5Y.jpg'
+import photo_6 from './img/Photo/carusel_2/FNlzmtBXXb8.jpg'
+import photo_7 from './img/Photo/carusel_2/fUYPhawVmaE.jpg'
+import photo_8 from './img/Photo/carusel_2/Ly5W-B5vwPc.jpg'
 
 function App() {
   return (
@@ -34,13 +38,13 @@ function App() {
             </ul>
             <a className={styles.icon__header} href='#top'><img className={styles.icon__header_img} src={iconHeader} alt="#" /></a>
             <div className={styles.header__phone}>
-            <a href="tell: +7(978) 075 9934"><img src={phoneTitle} alt="#" /><span>+7(978) 075 9934</span></a>
+              <a href="tell: +7(978) 075 9934"><img src={phoneTitle} alt="#" /><span>+7(978) 075 9934</span></a>
             </div>
           </header>
           <div className={styles.title__header}>
             <h2>Cosmos Zone</h2>
           </div>
-          <Carousel className={styles.img__carusel} autoplay>
+          <Carousel className={styles.img__carusel} dots={false} autoplay>
             <div className={styles.caruselTitle__1}>
               <img src={carusel_1} alt="#" />
             </div>
@@ -49,6 +53,9 @@ function App() {
             </div>
             <div className={styles.caruselTitle__3}>
               <img src={carusel_3} alt="#" />
+            </div>
+            <div className={styles.caruselTitle__3}>
+              <img src={carusel_4} alt="#" />
             </div>
           </Carousel>
         </div>
@@ -85,25 +92,40 @@ function App() {
             <div>
               <img src={photo_3} alt="#" />
             </div>
+            <div>
+              <img src={photo_4} alt="#" />
+            </div>
           </Carousel>
         </div>
         <div className={styles.caruselWrapper__2}>
           <Carousel autoplay>
-            <div>
-              <img src={photo_4} alt="#" />
-            </div>
             <div>
               <img src={photo_5} alt="#" />
             </div>
             <div>
               <img src={photo_6} alt="#" />
             </div>
+            <div>
+              <img src={photo_7} alt="#" />
+            </div>
+            <div>
+              <img src={photo_8} alt="#" />
+            </div>
           </Carousel>
         </div>
       </div>
       <a name='price' alt="#" href='/'></a>
       <div className={styles.price__wrapper}>
-        <img className={styles.img__price} src={price} alt="#" />
+        <div className={styles.caruselWrapper__price}>
+          <Carousel autoplay>
+            <div className={styles.img__price}>
+              <img src={price} alt="#" />
+            </div>
+            <div className={styles.img__price}>
+              <img src={price_vip} alt="#" />
+            </div>
+          </Carousel>
+        </div>
       </div>
       <a name="contact"></a>
       <div className={styles.contact__wrapper}>
