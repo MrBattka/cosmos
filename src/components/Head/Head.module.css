@@ -218,12 +218,12 @@
 
 @media(max-width: 400px) {
     .title__wrapper {
-        height: 37vh;
+        height: 36vh;
     }
 }
 
 @media(max-width: 350px) {
     .title__wrapper {
-        height: 34vh;
+        height: 30vh;
     }
 }
