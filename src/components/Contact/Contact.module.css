@@ -1,0 +1,55 @@
+.contact__wrapper {
+    background-color: rgb(23, 0, 21);
+    width: 100vw;
+    height: 30vh;
+}
+
+.icon__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.icon__wrapper img {
+    width: 40px;
+    margin: 50px 5px 0 5px;
+}
+
+.icon__wrapper img:hover {
+    width: 43px;
+}
+
+.icon__social {
+    width: 50px;
+}
+
+.phone {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.contact__wrapper p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    margin: 10px 0 0 0;
+    color: rgb(230, 211, 229);
+}
+
+.adress {
+    margin-top: 50px;
+}
+
+.contact__wrapper a {
+    color: rgb(230, 211, 229);
+}
+
+.contact__wrapper a:hover {
+    text-shadow: 0 0 2px white;
+}
+
+.contact__wrapper a:active {
+    text-shadow: none;
+}

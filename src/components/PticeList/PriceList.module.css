@@ -1,0 +1,47 @@
+.price__wrapper {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(23, 0, 21);
+}
+
+.caruselWrapper__price {
+    max-width: 40vw;
+    max-height: 100vh;
+    
+}
+
+.img__price {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.img__price img {
+    width: 40vw;
+    max-height: 100vh;
+}
+
+@media(max-width: 768px) {
+    .caruselWrapper__price {
+        max-width: 70vw;
+    }
+
+    .img__price img {
+        width: 70vw;
+    }
+}
+
+@media(max-width: 550px) {
+    .caruselWrapper__price {
+        max-width: 100vw;
+    }
+
+    .img__price img {
+        width: 100vw;
+    }
+}
+
+@media(max-width: 450px) {
+    .img__price {
+        max-width: 100vw;
+    }
+}
