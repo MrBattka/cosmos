@@ -1,8 +1,8 @@
 import { Carousel } from "antd";
 import React from "react";
 import styles from './PriceList.module.css'
-import price from '../../img/price_list.jpg'
-import price_vip from '../../img/price_list_vip.jpg'
+import price from '../../img/price/price_list.jpg'
+import price_vip from '../../img/price/price_list_vip.jpg'
 
 const PriceList = () => {
     return (

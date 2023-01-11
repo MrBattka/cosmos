@@ -1,11 +1,11 @@
 import React from "react";
 import styles from './Head.module.css'
-import carusel_1 from '../../img/carusel_2.jpg'
-import carusel_2 from '../../img/carusel_3.jpg'
-import carusel_3 from '../../img/carusel_1.jpg'
-import carusel_4 from '../../img/carusel_4.jpg'
-import iconHeader from '../../img/icon_head.jpg'
-import phoneTitle from '../../img/phone_title.png'
+import carusel_1 from '../../img/title/carusel_2.jpg'
+import carusel_2 from '../../img/title/carusel_3.jpg'
+import carusel_3 from '../../img/title/carusel_1.jpg'
+import carusel_4 from '../../img/title/carusel_4.jpg'
+import iconHeader from '../../img/title/icon_head.jpg'
+import phoneTitle from '../../img/title/phone_title.png'
 import { Carousel } from "antd";
 
 const Head = () => {

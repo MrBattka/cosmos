@@ -162,7 +162,7 @@
     .header__phone {
         width: 100vw;
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         align-items: center;
         letter-spacing: 1px;
         margin: 40px 0px 0 0;

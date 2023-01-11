@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './AboutUs.module.css'
-import icon from '../../img/icon_cosmos.jpg'
-import aboutBg from '../../img/about__bg.jpg'
+import icon from '../../img/aboutUs/icon_cosmos.jpg'
+import aboutBg from '../../img/aboutUs/about__bg.jpg'
 
 const AboutUs = () => {
     return (

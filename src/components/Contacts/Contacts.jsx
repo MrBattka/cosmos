@@ -1,8 +1,8 @@
 import React from "react";
 import styles from './Contacts.module.css'
-import vk from '../../img/vk.svg'
-import inst from '../../img/inst.svg'
-import phone from '../../img/phone.png'
+import vk from '../../img/contacts/vk.svg'
+import inst from '../../img/contacts/inst.svg'
+import phone from '../../img/contacts/phone.png'
 
 const Contact = () => {
     return (
