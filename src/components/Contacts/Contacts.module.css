@@ -12,21 +12,13 @@
 
 .icon__wrapper img {
     width: 40px;
-    margin: 20px 5px 0 5px;
-}
-
-.icon__wrapper img:hover {
-    width: 43px;
+    margin: 40px 5px 0 5px;
 }
 
 .icon__social {
     width: 170px;
     display: flex;
     flex-direction: row;
-}
-.icon__social a {
-    width: 200px;
-    height: 40px;
 }
 .insta {
     display: flex;
@@ -36,7 +28,7 @@
     height: 40px;
 }
 .inst_text {
-    margin-top: 18px;
+    margin-top: 38px;
     height: 40px;
     display: flex;
     align-items: center;
@@ -60,7 +52,7 @@
 }
 
 .adress {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .contact__wrapper a {

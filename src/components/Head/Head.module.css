@@ -14,6 +14,7 @@
 .icon__header_img {
     border-radius: 50%;
     width: 70px;
+    box-shadow: 0 0 1px white;
 }
 
 .icon__header a {

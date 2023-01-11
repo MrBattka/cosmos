@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './Contact.module.css'
+import styles from './Contacts.module.css'
 import vk from '../../img/vk.svg'
 import inst from '../../img/inst.svg'
 import phone from '../../img/phone.png'

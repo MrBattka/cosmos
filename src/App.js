@@ -3,7 +3,7 @@ import Head from './components/Head/Head';
 import AboutUs from './components/AboutUs/AboutUs';
 import Media from './components/Media/Media';
 import PriceList from './components/PticeList/PriceList';
-import Contact from './components/Contact/Contact';
+import Contacts from './components/Contacts/Contacts';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <a name="price" alt="#" href='/'>{null}</a>
       <PriceList />
       <a name="contact" alt="#" href='/'>{null}</a>
-      <Contact />
+      <Contacts />
     </div>
   );
 }
