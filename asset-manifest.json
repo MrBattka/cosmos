@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cosmos/static/css/main.1b6e879d.css",
-    "main.js": "/cosmos/static/js/main.0eaa4088.js",
+    "main.css": "/cosmos/static/css/main.d626e1b2.css",
+    "main.js": "/cosmos/static/js/main.11859e74.js",
     "static/js/787.b0fdefd0.chunk.js": "/cosmos/static/js/787.b0fdefd0.chunk.js",
     "static/media/about__bg.jpg": "/cosmos/static/media/about__bg.e83e0cd326683393a01f.jpg",
     "static/media/carusel_3.jpg": "/cosmos/static/media/carusel_3.fe4e68b25516dca88906.jpg",
@@ -23,12 +23,12 @@
     "static/media/vk.svg": "/cosmos/static/media/vk.5e9003685ce7d0005a91c57361f2aa2f.svg",
     "index.html": "/cosmos/index.html",
     "static/media/inst.svg": "/cosmos/static/media/inst.c28b1fdc4b9b5fefd0c9c5e0bdf19b09.svg",
-    "main.1b6e879d.css.map": "/cosmos/static/css/main.1b6e879d.css.map",
-    "main.0eaa4088.js.map": "/cosmos/static/js/main.0eaa4088.js.map",
+    "main.d626e1b2.css.map": "/cosmos/static/css/main.d626e1b2.css.map",
+    "main.11859e74.js.map": "/cosmos/static/js/main.11859e74.js.map",
     "787.b0fdefd0.chunk.js.map": "/cosmos/static/js/787.b0fdefd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b6e879d.css",
-    "static/js/main.0eaa4088.js"
+    "static/css/main.d626e1b2.css",
+    "static/js/main.11859e74.js"
   ]
 }
